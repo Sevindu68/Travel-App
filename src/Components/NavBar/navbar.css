@@ -9,11 +9,9 @@
   --inputColor: rgb(239, 239, 239);
   --bodyColor: rgb(240, 240, 246);
   --cardBG: rgb(225, 225, 235);
-  --gradientColor: linear-gradient(
-    to right,
-    hsl(187, 85%, 43%),
-    hsl(199, 100%, 33%)
-  );
+  --gradientColor: linear-gradient(to right,
+      hsl(187, 85%, 43%),
+      hsl(199, 100%, 33%));
 }
 
 .header {
@@ -27,6 +25,7 @@
   z-index: 1000;
   box-shadow: 0 2px 4px rgba(2, 15, 29, 0.242);
 }
+
 .header .logo {
   color: var(--blackColor);
   font-weight: 600;
@@ -34,11 +33,13 @@
   align-items: center;
   justify-content: center;
 }
+
 .header .logo .icon {
   font-size: 25px;
   color: var(--primaryColor);
   transform: translateY(5px);
 }
+
 @media screen and (max-width: 768px) {
   .header .navBar {
     position: absolute;
@@ -47,7 +48,7 @@
     height: max-content;
     width: 80%;
     border-radius: 1rem;
-    top: 6rem;
+    top: -500rem;
     left: 50%;
     padding: 1rem;
     transform: translate(-50%);
@@ -55,6 +56,7 @@
     box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
     transition: 0.3s ease-in-out;
   }
+
   .header .navBar .navLists {
     flex-direction: column;
     justify-self: center;
@@ -62,38 +64,53 @@
     margin: auto;
     padding: 0.5rem 0;
   }
+
   .header .navBar .navItem {
     padding: 0.5rem 0;
   }
+
   .header .navBar .navItem .navLink {
     color: var(--textColor);
     font-size: 0.9rem;
     font-weight: 600;
   }
+
   .header .navBar .navItem .navLink:hover {
     color: var(--primaryColor);
   }
+
   .header .navBar .btn {
     margin-top: 1rem;
   }
+
   .header .navBar .btn a {
     font-weight: 600;
     color: var(--whiteColor);
   }
+
   .header .closeNavBar {
     position: absolute;
     top: 1rem;
     right: 1.5rem;
     color: var(--primaryColor);
   }
+
   .header .closeNavBar:hover {
     color: var(--secondaryColor);
   }
+
+  .header .activeNavBar {
+    top: 7rem;
+  }
 }
+
 .header .toggleNavBar .icon {
   font-size: 25px;
   color: var(--primaryColor);
 }
+
 .header .toggleNavBar:hover.icon {
   color: var(--secondaryColor);
-}/*# sourceMappingURL=navbar.css.map */
+}
+
+/*# sourceMappingURL=navbar.css.map */
