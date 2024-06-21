@@ -73,12 +73,12 @@ const NavBar = () => {
           </ul>
 
           <div onClick={removeNavBar} className="closeNavBar">
-          <IoIosCloseCircle  className="icon"/>
+          <IoIosCloseCircle  className="icon mobile"/>
 
           </div>
         </div>
         <div onClick={showNav} className="toggleNavBar">
-        <TbGridDots className="icon" />
+        <TbGridDots className="icon mobile" />
         </div>
       </header>
     </section>

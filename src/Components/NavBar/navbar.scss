@@ -37,9 +37,19 @@
        font-size: 25px; 
        color: var(--primaryColor);
        transform: translateY(5px);
+       
+      
     }
+    .mobile{
+      display: none;
+     }
   }
-
+  .toggleNavBar{
+   display: none;
+  }
+  .closeNavBar{
+    display: none;
+  }
   @media screen and (max-width: 768px) {
     .navBar {
       position: absolute;
@@ -47,7 +57,7 @@
       height: max-content;
       width: 80%;
       border-radius: 1rem;
-      top: 6rem;
+      top: -500rem;
       left: 50%;
       padding: 1rem;
       transform: translate(-50%);
@@ -84,6 +94,7 @@
       }
     }
     .closeNavBar{
+        display: block;
         position: absolute;
         top: 1rem;
         right: 1.5rem;
@@ -93,15 +104,20 @@
 
         }
     }
+    .activeNavBar{
+      top:7rem
+    }
+    .toggleNavBar{
+      display: block;
+      .icon{
+          font-size: 25px; 
+          color: var(--primaryColor);
+       }
+       &:hover.icon{
+          color:var(--secondaryColor)
+       }
+    }
 
   }
-  .toggleNavBar{
-    .icon{
-        font-size: 25px; 
-        color: var(--primaryColor);
-     }
-     &:hover.icon{
-        color:var(--secondaryColor)
-     }
-  }
+  
 }
