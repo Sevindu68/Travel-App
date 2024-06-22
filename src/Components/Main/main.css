@@ -19,6 +19,7 @@
 
 .main {
   width: 100%;
+  margin-bottom: 1.5rem;
 }
 .main .secTitle .title {
   position: relative;
