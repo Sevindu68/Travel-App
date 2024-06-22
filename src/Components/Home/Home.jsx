@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./home.css";
-import video from "../../Assets/video.mp4";
+import video from "../../Assets/video2.mp4";
 import { GrLocation } from "react-icons/gr";
 import { HiFilter } from "react-icons/hi";
 import { FiFacebook,FiInstagram  } from "react-icons/fi";
@@ -17,7 +17,7 @@ const Home = () => {
       <video muted autoPlay loop type="video/mp4" src={video}></video>
       <div className="homeContent container">
         <div className="textDiv">
-          <span className="smallText">Our Package</span>
+          <span className="smallText">Our Packages</span>
           <h1 className="homeTitle">Search Your Holidays</h1>
         </div>
         <div className="cardDiv grid">
