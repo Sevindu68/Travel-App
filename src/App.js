@@ -1,12 +1,20 @@
+import React from 'react';
+import NavBar from './Components/NavBar/NavBar'
+import Home from './Components/Home/Home'
+import Main from './Components/Main/Main'
+// import Footer from './Components/Footer/Footer'
+import './App.css'
 
-import './App.css';
+const App = () => {
 
-function App() {
   return (
-    <div className="App">
-      hello
+    <div>
+      <NavBar/>
+      <Home/>
+      <Main/>
+      {/* <Footer/> */}
     </div>
   );
-}
+};
 
 export default App;
