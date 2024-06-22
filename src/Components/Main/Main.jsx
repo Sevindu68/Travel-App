@@ -1,21 +1,61 @@
 import React from "react";
 import "./main.css";
-import img from "../../Assets/dubai.jpg";
+import img1 from "../../Assets/dubai.jpg";
+import img2 from "../../Assets/eifel.jpg";
+import img3 from "../../Assets/wall.jpg";
+import img4 from "../../Assets/colosseum.jpg";
+import img5 from "../../Assets/liberty.jpg";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { IoIosArrowForward } from "react-icons/io";
 const Main = () => {
-  const data = [
-    {
-      id: 1,
-      imgSrc: img,
-      destTitle: "Burj Khalifa",
-      location: "Dubai",
-      grade: "Relax",
-      fees: "$700",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ducimus, aut tenetur dolorum aliquid eum natus ipsa harum porro inventore eius libero! Autem cupiditate commodi, nihil repudiandae facere architecto accusamus",
-    },
-  ];
+    const data = [
+        {
+          id: 1,
+          imgSrc: img1,
+          destTitle: 'Burj Khalifa',
+          location: 'Dubai',
+          grade: 'Relax',
+          fees: '$700',
+          description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ducimus, aut tenetur dolorum aliquid eum natus ipsa harum porro inventore eius libero! Autem cupiditate commodi, nihil repudiandae facere architecto accusamus'
+        },
+        {
+          id: 2,
+          imgSrc: img2,
+          destTitle: 'Eiffel Tower',
+          location: 'Paris',
+          grade: 'Explore',
+          fees: '$500',
+          description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ducimus, aut tenetur dolorum aliquid eum natus ipsa harum porro inventore eius libero! Autem cupiditate commodi, nihil repudiandae facere architecto accusamus'
+        },
+        {
+          id: 3,
+          imgSrc: img3,
+          destTitle: 'Great Wall',
+          location: 'China',
+          grade: 'Adventure',
+          fees: '$600',
+          description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ducimus, aut tenetur dolorum aliquid eum natus ipsa harum porro inventore eius libero! Autem cupiditate commodi, nihil repudiandae facere architecto accusamus'
+        },
+        {
+          id: 4,
+          imgSrc: img4,
+          destTitle: 'Colosseum',
+          location: 'Rome',
+          grade: 'History',
+          fees: '$400',
+          description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ducimus, aut tenetur dolorum aliquid eum natus ipsa harum porro inventore eius libero! Autem cupiditate commodi, nihil repudiandae facere architecto accusamus'
+        },
+        {
+          id: 5,
+          imgSrc: img5,
+          destTitle: 'Statue of Liberty',
+          location: 'New York',
+          grade: 'Explore',
+          fees: '$350',
+          description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ducimus, aut tenetur dolorum aliquid eum natus ipsa harum porro inventore eius libero! Autem cupiditate commodi, nihil repudiandae facere architecto accusamus'
+        }
+      ];
+      
 
   return (
     <section className="main container section">
