@@ -23,7 +23,7 @@ const Main = () => {
         <h3 className="title">Most visited destination</h3>
       </div>
 
-      <div className="secContect grid">
+      <div className="secContent grid">
         {data.map(
           ({ id, imgSrc, destTitle, location, grade, fees, description }) => {
             return (
@@ -39,7 +39,7 @@ const Main = () => {
                   </span>
 
                   <div className="fees flex">
-                    <div className="garde">
+                    <div className="grade">
                       <span>
                         {grade}
                         <small>+1</small>
