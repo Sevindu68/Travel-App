@@ -6,6 +6,7 @@ import img2 from "../../Assets/eifel.jpg";
 import img3 from "../../Assets/wall.jpg";
 import img4 from "../../Assets/colosseum.jpg";
 import img5 from "../../Assets/liberty.jpg";
+import img6 from "../../Assets/sigiriya.jpg";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { IoIosArrowForward } from "react-icons/io";
 import Aos from "aos";
@@ -63,6 +64,15 @@ const Main = () => {
           location: 'New York',
           grade: 'Explore',
           fees: '$350',
+          description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ducimus, aut tenetur dolorum aliquid eum natus ipsa harum porro inventore eius libero! Autem cupiditate commodi, nihil repudiandae facere architecto accusamus'
+        },
+        {
+          id: 6,
+          imgSrc: img6,
+          destTitle: 'Sigiriya',
+          location: 'Sri Lanka',
+          grade: 'Explore',
+          fees: '$550',
           description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ducimus, aut tenetur dolorum aliquid eum natus ipsa harum porro inventore eius libero! Autem cupiditate commodi, nihil repudiandae facere architecto accusamus'
         }
       ];
